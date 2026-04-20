@@ -1,0 +1,15 @@
+import { CORS_WHITELIST } from './dotenv.config';
+
+export const corsOptions = {
+  origin: function (
+    origin: string | undefined,
+    callback: (err: Error | null, allow?: boolean) => void,
+  ) {
+    if (origin && !CORS_WHITELIST?.includes(origin)) {
+      callback(new Error('Origin not allowed by CORS'));
+    } else {
+      callback(null, true);
+    }
+  },
+  credentials: true,
+};

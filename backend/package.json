@@ -1,0 +1,45 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.6.0",
+    "@prisma/client": "^6.19.3",
+    "@supabase/supabase-js": "^2.102.0",
+    "@types/bcrypt": "^6.0.0",
+    "@types/cookie-parser": "^1.4.10",
+    "@types/cors": "^2.8.19",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/multer": "^2.1.0",
+    "@types/nodemailer": "^8.0.0",
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.9.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "handlebars": "^4.7.9",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.5",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/pg": "^8.20.0",
+    "nodemon": "^3.1.14",
+    "prisma": "^6.19.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}

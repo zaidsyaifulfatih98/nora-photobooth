@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.recharts-surface path,
+.recharts-surface rect,
+.recharts-surface circle {
+  fill: revert;
+}
