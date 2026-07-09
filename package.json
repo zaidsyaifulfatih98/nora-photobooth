@@ -1,0 +1,14 @@
+{
+  "name": "nora-photobooth",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "workspaces": [
+    "backend",
+    "web"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=backend && npm run build --workspace=web",
+    "start": "node server.js"
+  }
+}
