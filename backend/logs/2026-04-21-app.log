@@ -1,0 +1,27 @@
+[2026-04-21 15:40:05] ERROR: POST /api/transaction - Firstname is required  {
+  "statusCode": 400,
+  "name": "Error",
+  "stack": "Error: Firstname is required\n    at AppError (D:\\Purwadhika\\materi\\NextPos\\backend\\src\\utils\\app-error.utils.ts:7:17)\n    at expressRequestValidation (D:\\Purwadhika\\materi\\NextPos\\backend\\src\\middleware\\express-validation.middlewere.ts:8:42)\n    at Layer.handleRequest (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at middleware (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)",
+  "body": {
+    "totalItem": 10,
+    "totalPrice": 15000,
+    "customerName": "Bambang123",
+    "paymentMethod": "CASH",
+    "status": "PAID",
+    "cashierId": "28f93f2a-091e-4318-b76c-6df2bf19850b"
+  },
+  "params": {},
+  "query": {},
+  "headers": {
+    "test": "test123",
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.51.1",
+    "accept": "*/*",
+    "postman-token": "ee16ccd8-711c-4fde-99f2-c67a58f457cb",
+    "host": "localhost:8000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "204",
+    "cookie": "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOGY5M2YyYS0wOTFlLTQzMTgtYjc2Yy02ZGYyYmYxOTg1MGIiLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE3NzY3NjA3NTMsImV4cCI6MTc3Njg0NzE1M30.dsLAM-8fT0Pk9cSrk7aZTMcmKUHc-olN49UolhFHBoQ"
+  }
+}

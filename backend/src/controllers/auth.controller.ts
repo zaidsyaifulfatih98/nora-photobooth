@@ -1,51 +1,71 @@
-import { Request,Response, NextFunction } from "express"
-import { authService } from "../services/auth.service"
+import { NextFunction, Request, Response } from 'express';
+import {
+  getCurrentUserService,
+  loginService,
+  registerService,
+} from '../services/auth.service';
 
-export const authController = {
-    async register (req:Request, res:Response, next:  NextFunction){
-        try {
-            const user = await authService.register(req.body);
-            res.status(201).json({
-                success: true,
-                massage: "register successfully",
-                data: user
-            })
+const isProduction = process.env.NODE_ENV === 'production';
 
-        }catch (error){
-            next(error)
+export async function loginController(req: Request, res: Response, next: NextFunction) {
+  try {
+    const { email, password } = req.body;
+    const { token, user } = await loginService({ email, password });
 
-        }
+    res.cookie('token', token, {
+      httpOnly: true,
+      secure: isProduction,
+      sameSite: isProduction ? 'none' : 'lax',
+      maxAge: 24 * 60 * 60 * 1000,
+    });
 
-    },
-    async login (req:Request, res:Response, next: NextFunction){
-        try{
-            const {email, password} = req?.body
+    res.status(200).json({
+      success: true,
+      message: 'Login successful',
+      data: user,
+    });
+  } catch (error) {
+    next(error);
+  }
+}
 
-            const {firstName,lastName,token, role} = await authService?.login({email,password})
-            
-            res.cookie('token', token,{
-                httpOnly: true,
-                secure : true,
-                sameSite: 'lax',
-                path: '/'
+export async function registerController(req: Request, res: Response, next: NextFunction) {
+  try {
+    const user = await registerService(req.body);
 
-            })
+    res.status(201).json({
+      success: true,
+      message: 'Register successful',
+      data: user,
+    });
+  } catch (error) {
+    next(error);
+  }
+}
 
-            res.status(200).json({
-                success: true,
-                message: 'user authentification successfully',
-                data : {
-                    firstName,
-                    lastName,
-                    role
-                    
-                }
-            })
+export async function logoutController(req: Request, res: Response, next: NextFunction) {
+  try {
+    res.clearCookie('token');
+    res.status(200).json({
+      success: true,
+      message: 'Logout successful',
+      data: {},
+    });
+  } catch (error) {
+    next(error);
+  }
+}
 
-        }catch(error){
-            next(error)
+export async function getCurrentUserController(req: Request, res: Response, next: NextFunction) {
+  try {
+    const user = await getCurrentUserService(req.user!.id);
 
-        }
-    }
-
+    res.status(200).json({
+      success: true,
+      message: 'Current user fetched',
+      data: user,
+    });
+  } catch (error) {
+    next(error);
+  }
 }

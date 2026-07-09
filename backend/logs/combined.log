@@ -1,0 +1,1961 @@
+[2026-04-21 15:40:05] ERROR: POST /api/transaction - Firstname is required  {
+  "statusCode": 400,
+  "name": "Error",
+  "stack": "Error: Firstname is required\n    at AppError (D:\\Purwadhika\\materi\\NextPos\\backend\\src\\utils\\app-error.utils.ts:7:17)\n    at expressRequestValidation (D:\\Purwadhika\\materi\\NextPos\\backend\\src\\middleware\\express-validation.middlewere.ts:8:42)\n    at Layer.handleRequest (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at middleware (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)",
+  "body": {
+    "totalItem": 10,
+    "totalPrice": 15000,
+    "customerName": "Bambang123",
+    "paymentMethod": "CASH",
+    "status": "PAID",
+    "cashierId": "28f93f2a-091e-4318-b76c-6df2bf19850b"
+  },
+  "params": {},
+  "query": {},
+  "headers": {
+    "test": "test123",
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.51.1",
+    "accept": "*/*",
+    "postman-token": "ee16ccd8-711c-4fde-99f2-c67a58f457cb",
+    "host": "localhost:8000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "204",
+    "cookie": "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOGY5M2YyYS0wOTFlLTQzMTgtYjc2Yy02ZGYyYmYxOTg1MGIiLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE3NzY3NjA3NTMsImV4cCI6MTc3Njg0NzE1M30.dsLAM-8fT0Pk9cSrk7aZTMcmKUHc-olN49UolhFHBoQ"
+  }
+}
+[2026-04-22 13:28:41] ERROR: POST /api/transaction - token must be provided  {
+  "statusCode": 401,
+  "name": "Error",
+  "stack": "Error: token must be provided\n    at AppError (D:\\Purwadhika\\materi\\NextPos\\backend\\src\\utils\\app-error.utils.ts:7:17)\n    at D:\\Purwadhika\\materi\\NextPos\\backend\\src\\middleware\\jwt-verify.middlewere.ts:9:31\n    at Layer.handleRequest (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\router\\index.js:291:5)",
+  "body": {
+    "totalItem": 10,
+    "totalPrice": 15000,
+    "customerName": "budi",
+    "paymentMethod": "CASH",
+    "status": "PAID"
+  },
+  "params": {},
+  "query": {},
+  "headers": {
+    "test": "test123",
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.51.1",
+    "accept": "*/*",
+    "postman-token": "e987ab4c-cec0-438f-acc0-0540bc7b823e",
+    "host": "localhost:8000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "145"
+  }
+}
+[2026-04-22 13:31:33] ERROR: POST /api/auth/login - Email is required  {
+  "statusCode": 400,
+  "name": "Error",
+  "stack": "Error: Email is required\n    at AppError (D:\\Purwadhika\\materi\\NextPos\\backend\\src\\utils\\app-error.utils.ts:7:17)\n    at expressRequestValidation (D:\\Purwadhika\\materi\\NextPos\\backend\\src\\middleware\\express-validation.middlewere.ts:8:42)\n    at Layer.handleRequest (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at middleware (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)",
+  "body": {
+    "totalItem": 10,
+    "totalPrice": 15000,
+    "customerName": "budi",
+    "paymentMethod": "CASH",
+    "status": "PAID"
+  },
+  "params": {},
+  "query": {},
+  "headers": {
+    "test": "test123",
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.51.1",
+    "accept": "*/*",
+    "postman-token": "819d564b-6a26-4a11-99b1-41a2a2d817a0",
+    "host": "localhost:8000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "145",
+    "cookie": "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOGY5M2YyYS0wOTFlLTQzMTgtYjc2Yy02ZGYyYmYxOTg1MGIiLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE3NzY4Mzk0ODEsImV4cCI6MTc3NjkyNTg4MX0.L9Ks4lqToYoeWkMwfBYlqJQszcnlCOz9ArtyWVpVKns"
+  }
+}
+[2026-04-22 15:24:00] INFO: [CRON] 1 transactions is expired  
+[2026-04-22 15:25:01] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:26:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:27:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:28:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:29:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:30:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:31:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:32:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:33:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:34:00] INFO: [CRON] 1 transactions is expired  
+[2026-04-22 15:35:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:40:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:41:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:42:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:43:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:44:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:45:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:46:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:47:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:48:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:49:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:50:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:52:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:53:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 15:54:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 16:03:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 16:23:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 16:24:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 16:25:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 16:27:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 16:28:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-22 16:29:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 09:51:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 09:52:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 09:53:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 09:56:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 09:57:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:57:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-23 09:58:43] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-23 09:59:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:00:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:01:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:02:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:03:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:05:21] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-23 10:05:55] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-23 10:06:16] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-23 10:06:35] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-23 10:07:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:08:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:08:37] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-23 10:09:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:10:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:11:21] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-23 10:11:41] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-23 10:11:47] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-23 10:12:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:12:27] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-23 10:13:12] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-23 10:14:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:15:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:16:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:17:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:18:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:19:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:20:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:21:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:22:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:23:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:24:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:25:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:26:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:27:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:28:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:29:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:30:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:31:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:32:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-23 10:33:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:36:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:36:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-26 10:39:13] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 10:40:01] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:41:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:42:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:43:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:44:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:44:28] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 10:45:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:45:04] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 10:46:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:46:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:46:50] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 10:46:50] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 10:47:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:47:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:47:14] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 10:47:19] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 10:48:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:48:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:49:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:49:06] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 10:50:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:50:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:51:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:51:11] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 10:51:57] ERROR: GET /api/menus/categories=cmnyds0g10000c0fcv4se2jvz - something went wrong  {
+  "statusCode": 500,
+  "name": "Error",
+  "stack": "Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\express\\lib\\response.js:686:10)\n    at ServerResponse.send (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\express\\lib\\response.js:163:12)\n    at ServerResponse.json (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\express\\lib\\response.js:252:15)\n    at D:\\Purwadhika\\materi\\NextPos\\backend\\src\\controllers\\menus.controller.ts:41:25\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Purwadhika\\materi\\NextPos\\backend\\src\\controllers\\menus.controller.ts:5:58)",
+  "body": {
+    "email": "zaid123@gmail.com",
+    "password": "12345678"
+  },
+  "params": {},
+  "query": {},
+  "headers": {
+    "test": "test123",
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.51.1",
+    "accept": "*/*",
+    "postman-token": "82c25e4b-3425-43fd-86a0-476f1bd74455",
+    "host": "localhost:8000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "74"
+  }
+}
+[2026-04-26 10:52:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:52:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:52:42] ERROR: GET /api/menus/categories=cmnyds0g60002c0fcc6iizbrm - something went wrong  {
+  "statusCode": 500,
+  "name": "Error",
+  "stack": "Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\express\\lib\\response.js:686:10)\n    at ServerResponse.send (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\express\\lib\\response.js:163:12)\n    at ServerResponse.json (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\express\\lib\\response.js:252:15)\n    at D:\\Purwadhika\\materi\\NextPos\\backend\\src\\controllers\\menus.controller.ts:41:25\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Purwadhika\\materi\\NextPos\\backend\\src\\controllers\\menus.controller.ts:5:58)",
+  "body": {
+    "email": "zaid123@gmail.com",
+    "password": "12345678"
+  },
+  "params": {},
+  "query": {},
+  "headers": {
+    "test": "test123",
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.51.1",
+    "accept": "*/*",
+    "postman-token": "5f9e5e64-633e-4381-b81b-1b7b82299ec9",
+    "host": "localhost:8000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "74"
+  }
+}
+[2026-04-26 10:53:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:53:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:54:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:54:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:55:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:55:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:56:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:56:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:57:49] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 10:57:49] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 10:58:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 10:58:02] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 10:58:09] ERROR: GET /api/menus?categories=Beverage - something went wrong  {
+  "statusCode": 500,
+  "name": "PrismaClientValidationError",
+  "stack": "PrismaClientValidationError: \nInvalid `prisma.product.findMany()` invocation in\nD:\\Purwadhika\\materi\\NextPos\\backend\\src\\services\\menus.service.ts:24:47\n\n  21 console.log('tidak ada data dalam cache')\n  22 \n  23 \n→ 24 const products = await prisma.product.findMany({\n       where: {\n         deletedAt: null,\n         category: {\n         ~~~~~~~~\n           name: {\n             equals: \"Beverage\",\n             mode: \"insensitive\"\n           }\n         },\n     ?   AND?: ProductWhereInput | ProductWhereInput[],\n     ?   OR?: ProductWhereInput[],\n     ?   NOT?: ProductWhereInput | ProductWhereInput[],\n     ?   id?: StringFilter | String,\n     ?   name?: StringFilter | String,\n     ?   price?: DecimalFilter | Decimal,\n     ?   isAvailable?: BoolFilter | Boolean,\n     ?   categoryId?: StringFilter | String,\n     ?   createdAt?: DateTimeFilter | DateTime,\n     ?   updatedAt?: DateTimeFilter | DateTime,\n     ?   categories?: CategoryScalarRelationFilter | CategoryWhereInput,\n     ?   productImages?: ProductImageListRelationFilter,\n     ?   transactionDetails?: TransactionDetailListRelationFilter\n       }\n     })\n\nUnknown argument `category`. Did you mean `categoryId`? Available options are marked with ?.\n    at throwValidationException (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\core\\errorRendering\\throwValidationException.ts:45:9)\n    at ei.handleRequestError (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\RequestHandler.ts:202:7)\n    at ei.handleAndLogRequestError (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\RequestHandler.ts:174:12)\n    at ei.request (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\RequestHandler.ts:143:12)\n    at async a (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\getPrismaClient.ts:833:24)",
+  "body": {
+    "email": "zaid123@gmail.com",
+    "password": "12345678"
+  },
+  "params": {},
+  "query": {
+    "categories": "Beverage"
+  },
+  "headers": {
+    "test": "test123",
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.51.1",
+    "accept": "*/*",
+    "postman-token": "f904d107-0c36-401e-9e1e-434339d27d05",
+    "host": "localhost:8000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "74"
+  }
+}
+[2026-04-26 10:58:24] ERROR: GET /api/menus?categories=Food - something went wrong  {
+  "statusCode": 500,
+  "name": "PrismaClientValidationError",
+  "stack": "PrismaClientValidationError: \nInvalid `prisma.product.findMany()` invocation in\nD:\\Purwadhika\\materi\\NextPos\\backend\\src\\services\\menus.service.ts:24:47\n\n  21 console.log('tidak ada data dalam cache')\n  22 \n  23 \n→ 24 const products = await prisma.product.findMany({\n       where: {\n         deletedAt: null,\n         category: {\n         ~~~~~~~~\n           name: {\n             equals: \"Food\",\n             mode: \"insensitive\"\n           }\n         },\n     ?   AND?: ProductWhereInput | ProductWhereInput[],\n     ?   OR?: ProductWhereInput[],\n     ?   NOT?: ProductWhereInput | ProductWhereInput[],\n     ?   id?: StringFilter | String,\n     ?   name?: StringFilter | String,\n     ?   price?: DecimalFilter | Decimal,\n     ?   isAvailable?: BoolFilter | Boolean,\n     ?   categoryId?: StringFilter | String,\n     ?   createdAt?: DateTimeFilter | DateTime,\n     ?   updatedAt?: DateTimeFilter | DateTime,\n     ?   categories?: CategoryScalarRelationFilter | CategoryWhereInput,\n     ?   productImages?: ProductImageListRelationFilter,\n     ?   transactionDetails?: TransactionDetailListRelationFilter\n       }\n     })\n\nUnknown argument `category`. Did you mean `categoryId`? Available options are marked with ?.\n    at throwValidationException (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\core\\errorRendering\\throwValidationException.ts:45:9)\n    at ei.handleRequestError (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\RequestHandler.ts:202:7)\n    at ei.handleAndLogRequestError (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\RequestHandler.ts:174:12)\n    at ei.request (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\RequestHandler.ts:143:12)\n    at async a (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\getPrismaClient.ts:833:24)",
+  "body": {
+    "email": "zaid123@gmail.com",
+    "password": "12345678"
+  },
+  "params": {},
+  "query": {
+    "categories": "Food"
+  },
+  "headers": {
+    "test": "test123",
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.51.1",
+    "accept": "*/*",
+    "postman-token": "07fbfc50-2d9b-4844-a14f-82832f04f1ab",
+    "host": "localhost:8000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "74"
+  }
+}
+[2026-04-26 10:59:29] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 10:59:29] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 10:59:38] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 10:59:38] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 11:00:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:00:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:00:26] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 11:01:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:01:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:01:20] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 11:01:20] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 11:02:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:02:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:03:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:03:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:04:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:04:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:05:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:05:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:06:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:06:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:07:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:07:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:08:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:08:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:09:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:09:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:09:17] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 11:09:17] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 11:15:49] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 11:15:50] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 11:16:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:16:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:17:33] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 11:17:40] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-26 11:18:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:18:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:19:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:19:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:20:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:20:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:21:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:21:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:22:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:22:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:23:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:23:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:24:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:24:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:25:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:26:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-26 11:27:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:26:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:26:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 09:33:10] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-27 09:34:01] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:34:41] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-27 09:35:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:36:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:37:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:38:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:39:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:40:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:41:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:42:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:43:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:44:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:45:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:46:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:47:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:48:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:49:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:50:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:51:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:52:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:53:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:54:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:55:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:56:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:57:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 09:58:18] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-27 09:59:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 10:00:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 10:01:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 10:02:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 10:03:00] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-27 10:04:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 10:05:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 10:06:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 10:07:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 10:08:01] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-27 10:09:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 10:09:24] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-27 10:09:34] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-27 10:09:49] ERROR: POST /api/menus - something went wrong  {
+  "statusCode": 500,
+  "name": "PrismaClientKnownRequestError",
+  "stack": "PrismaClientKnownRequestError: \nInvalid `tx.product.create()` invocation in\nD:\\Purwadhika\\materi\\NextPos\\backend\\src\\services\\menus.service.ts:74:53\n\n  71     {name, price, categoryId}: Pick <Product, 'name' | 'price' | 'categoryId'>\n  72 ){\n  73    await prisma.$transaction(async(tx)=> {\n→ 74         const createdProduct = await tx.product.create(\nForeign key constraint violated on the constraint: `products_categoryId_fkey`\n    at ei.handleRequestError (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\RequestHandler.ts:228:13)\n    at ei.handleAndLogRequestError (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\RequestHandler.ts:174:12)\n    at ei.request (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\RequestHandler.ts:143:12)\n    at async a (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\getPrismaClient.ts:833:24)",
+  "body": {
+    "name": "Ayam Goreng Bumbu",
+    "price": "20000",
+    "categoryId": ""
+  },
+  "params": {},
+  "query": {},
+  "headers": {
+    "host": "localhost:8000",
+    "connection": "keep-alive",
+    "content-length": "318027",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "accept": "application/json, text/plain, */*",
+    "sec-ch-ua": "\"Google Chrome\";v=\"147\", \"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"147\"",
+    "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryBJ5hQicLmCRct9AB",
+    "sec-ch-ua-mobile": "?0",
+    "origin": "http://localhost:3000",
+    "sec-fetch-site": "same-site",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://localhost:3000/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en-AU;q=0.9,en;q=0.8,id;q=0.7",
+    "cookie": "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijc5MDAzYWYzLTZlNmEtNGRjZS1iN2FlLTc0ZjI3ZWFhNWE2OCIsImVtYWlsIjoiemFpZDEyM0BnbWFpbC5jb20iLCJyb2xlIjpbIk9SR0FOSVpFUiJdLCJpYXQiOjE3NzcxNjY1MzgsImV4cCI6MTc3Nzc3MTMzOH0.DDekr7SC9Yb9Qjg3Dzrmxcf_QR_AcLTW06Z_9cuMCoI; user=%7B%22id%22%3A%2279003af3-6e6a-4dce-b7ae-74f27eaa5a68%22%2C%22full_name%22%3A%22Zaid%20Fatih%22%2C%22email%22%3A%22zaid123%40gmail.com%22%2C%22role%22%3A%5B%22ORGANIZER%22%5D%2C%22referral_code%22%3A%227A8A8C0F%22%2C%22profile_picture%22%3A%22https%3A%2F%2Fi.pinimg.com%2F736x%2F09%2F1c%2F78%2F091c78975bd12d79a8d1f5562cebfd89.jpg%22%7D; __next_hmr_refresh_hash__=11"
+  }
+}
+[2026-04-27 10:09:53] ERROR: POST /api/menus - something went wrong  {
+  "statusCode": 500,
+  "name": "PrismaClientKnownRequestError",
+  "stack": "PrismaClientKnownRequestError: \nInvalid `tx.product.create()` invocation in\nD:\\Purwadhika\\materi\\NextPos\\backend\\src\\services\\menus.service.ts:74:53\n\n  71     {name, price, categoryId}: Pick <Product, 'name' | 'price' | 'categoryId'>\n  72 ){\n  73    await prisma.$transaction(async(tx)=> {\n→ 74         const createdProduct = await tx.product.create(\nForeign key constraint violated on the constraint: `products_categoryId_fkey`\n    at ei.handleRequestError (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\RequestHandler.ts:228:13)\n    at ei.handleAndLogRequestError (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\RequestHandler.ts:174:12)\n    at ei.request (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\RequestHandler.ts:143:12)\n    at async a (D:\\Purwadhika\\materi\\NextPos\\backend\\node_modules\\@prisma\\client\\src\\runtime\\getPrismaClient.ts:833:24)",
+  "body": {
+    "name": "Ayam Goreng Bumbu",
+    "price": "20000",
+    "categoryId": ""
+  },
+  "params": {},
+  "query": {},
+  "headers": {
+    "host": "localhost:8000",
+    "connection": "keep-alive",
+    "content-length": "318027",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "accept": "application/json, text/plain, */*",
+    "sec-ch-ua": "\"Google Chrome\";v=\"147\", \"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"147\"",
+    "content-type": "multipart/form-data; boundary=----WebKitFormBoundarylhDCnZcXJtgeZsKQ",
+    "sec-ch-ua-mobile": "?0",
+    "origin": "http://localhost:3000",
+    "sec-fetch-site": "same-site",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://localhost:3000/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en-AU;q=0.9,en;q=0.8,id;q=0.7",
+    "cookie": "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijc5MDAzYWYzLTZlNmEtNGRjZS1iN2FlLTc0ZjI3ZWFhNWE2OCIsImVtYWlsIjoiemFpZDEyM0BnbWFpbC5jb20iLCJyb2xlIjpbIk9SR0FOSVpFUiJdLCJpYXQiOjE3NzcxNjY1MzgsImV4cCI6MTc3Nzc3MTMzOH0.DDekr7SC9Yb9Qjg3Dzrmxcf_QR_AcLTW06Z_9cuMCoI; user=%7B%22id%22%3A%2279003af3-6e6a-4dce-b7ae-74f27eaa5a68%22%2C%22full_name%22%3A%22Zaid%20Fatih%22%2C%22email%22%3A%22zaid123%40gmail.com%22%2C%22role%22%3A%5B%22ORGANIZER%22%5D%2C%22referral_code%22%3A%227A8A8C0F%22%2C%22profile_picture%22%3A%22https%3A%2F%2Fi.pinimg.com%2F736x%2F09%2F1c%2F78%2F091c78975bd12d79a8d1f5562cebfd89.jpg%22%7D; __next_hmr_refresh_hash__=11"
+  }
+}
+[2026-04-27 10:10:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 10:11:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 10:12:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 10:13:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 10:13:51] INFO: 🔌[REDIS]: Connected to redis-server  
+[2026-04-27 10:14:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 10:15:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:06:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:06:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:07:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:07:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:08:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:08:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:09:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:09:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:10:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:10:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:11:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:11:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:12:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:12:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:13:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:13:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:14:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:14:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:15:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:15:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:16:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:16:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:17:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:17:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:18:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:18:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:19:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:19:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:20:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:20:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:21:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:21:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:22:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:22:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:23:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:23:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:24:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:24:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:25:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:25:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:26:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:26:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:28:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:29:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:29:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:30:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:30:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:31:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:31:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:32:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:32:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:33:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:33:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:34:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:34:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:35:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:35:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:36:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:36:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:37:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:37:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:38:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:38:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:39:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:39:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:40:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:40:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:41:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:41:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:42:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:42:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:43:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:43:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:44:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:44:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:45:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:45:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:46:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:46:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:47:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:47:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:48:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:48:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:49:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:49:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:50:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:31] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:33] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:35] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:37] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:39] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:41] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:43] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:45] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:47] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:49] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:51] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:53] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:55] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:57] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:50:59] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:51:01] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:03] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:05] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:07] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:09] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:11] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:13] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:15] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:17] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:19] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:21] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:23] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:25] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:27] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:29] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:51:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:52:02] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:04] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:06] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:08] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:10] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:12] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:14] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:16] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:18] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:20] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:22] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:24] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:26] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:28] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:30] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:32] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:34] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:36] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:38] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:40] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:42] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:44] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:46] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:48] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:50] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:52] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:54] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:56] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:52:58] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  
+[2026-04-27 13:53:00] INFO: [CRON] 0 transactions is expired  
+[2026-04-27 13:53:00] INFO: ❌[REDIS]: Error: connect ECONNREFUSED 127.0.0.1:6379  

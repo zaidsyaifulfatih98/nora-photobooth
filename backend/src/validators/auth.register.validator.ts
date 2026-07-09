@@ -26,7 +26,7 @@ export const authRegisterValidator = [
     .withMessage('Email is required')
     .isString()
     .isEmail()
-    .withMessage('Firstname have minimum 5 characters and maximum 25 characters'),
+    .withMessage('Email must be a valid email address'),
 
     body('password')
     .exists()
@@ -36,5 +36,6 @@ export const authRegisterValidator = [
     body('role')
     .exists()
     .withMessage('Role is required')
-    .isString()
+    .isIn(['SUPER_ADMIN', 'ADMIN'])
+    .withMessage('Role must be SUPER_ADMIN or ADMIN')
 ]

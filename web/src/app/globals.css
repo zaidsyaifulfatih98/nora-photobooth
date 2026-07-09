@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme inline {
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+}
+
+.recharts-surface path,
+.recharts-surface rect,
+.recharts-surface circle {
+  fill: revert;
+}
