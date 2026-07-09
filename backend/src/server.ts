@@ -43,7 +43,7 @@ app.use((error: any, req: express.Request, res: express.Response, next: express.
   });
 });
 
-if (require.main === module) {
+if (!process.env.VERCEL) {
   app.listen(PORT, () => {
     log.info(`Server is running on port ${PORT}`);
   });

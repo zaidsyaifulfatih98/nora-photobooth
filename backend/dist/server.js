@@ -42,7 +42,7 @@ app.use((error, req, res, next) => {
         data: {},
     });
 });
-if (require.main === module) {
+if (!process.env.VERCEL) {
     app.listen(PORT, () => {
         logger_error_util_1.log.info(`Server is running on port ${PORT}`);
     });
