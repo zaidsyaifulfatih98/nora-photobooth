@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const finance_controller_1 = require("../controllers/finance.controller");
+const finance_validator_1 = require("../validators/finance.validator");
+const express_validation_middlewere_1 = require("../middleware/express-validation.middlewere");
+const jwt_verify_middlewere_1 = require("../middleware/jwt-verify.middlewere");
+const role_verify_middlewere_1 = require("../middleware/role-verify.middlewere");
+const financeRouter = (0, express_1.Router)();
+financeRouter.use(jwt_verify_middlewere_1.jwtVerify, (0, role_verify_middlewere_1.roleVerify)(['SUPER_ADMIN', 'ADMIN']));
+financeRouter.get('/', finance_controller_1.getFinanceEntriesController);
+financeRouter.get('/summary', finance_controller_1.getFinanceSummaryController);
+financeRouter.post('/', finance_validator_1.financeValidator, express_validation_middlewere_1.expressValidation, finance_controller_1.createFinanceEntryController);
+financeRouter.patch('/:id', finance_controller_1.updateFinanceEntryController);
+financeRouter.delete('/:id', finance_controller_1.deleteFinanceEntryController);
+exports.default = financeRouter;
