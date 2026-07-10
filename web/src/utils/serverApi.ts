@@ -2,6 +2,7 @@ export async function fetchPublic<T>(path: string): Promise<T | null> {
   try {
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}${path}`, {
       next: { revalidate: 30 },
+      signal: AbortSignal.timeout(8000),
     });
 
     if (!res.ok) return null;
