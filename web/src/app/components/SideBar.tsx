@@ -31,7 +31,7 @@ export default function SideBar() {
       await logout();
     } finally {
       clearAuth();
-      router.push('/');
+      router.push('/login');
     }
   };
 

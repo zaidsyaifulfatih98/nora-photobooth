@@ -27,7 +27,7 @@ export default function DashboardLayout({
       })
       .catch(() => {
         if (cancelled) return;
-        router.replace('/');
+        router.replace('/login');
       })
       .finally(() => {
         if (cancelled) return;
